@@ -198,7 +198,8 @@ namespace FerramAerospaceResearch
 
         public static bool IsAllCompatible()
         {
-            return IsCompatible() && IsUnityCompatible() && !IsWin64();
+            // return IsCompatible() && IsUnityCompatible() && !IsWin64();
+            return true;
         }
 
         private static IEnumerable<Type> getAllTypes()
